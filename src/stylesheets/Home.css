@@ -1,0 +1,128 @@
+/* Overall styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #20232a;
+  color: #fff;
+}
+
+/* Navigation bar styles */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #171a1d;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Home page content styles */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.content-container {
+  display: flex; /* Arrange columns side-by-side */
+}
+
+.quote {
+  /* Adjust styles for the quote container */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  height: 77vh;
+  width: 120vh; /* Adjust width as needed */
+  text-align: center;
+  margin-left: 120px; /* Center the quote text */
+}
+
+.quote p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  font-style: italic; /* Optional styling for the quote text */
+}
+
+img {
+  width: 80%;
+  border-radius: 50%; /* This creates the circular shape */
+  overflow: hidden;
+}
+.user-profile {
+  border: 1px solid #ddd;
+  margin-left: 8%;
+  padding: 10px;
+  height: 30vh;
+  width: 20vb;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 30px;
+}
+.profile-info {
+  border-color: #fff;
+}
+
+.user-profile img {
+  width: 100%;
+  margin-top: 3px;
+  border-radius: 50%;
+}
+
+.user-profile button {
+  display: block; /* Change display to block for vertical stacking */
+  width: 80%; /* Set element width to 30px */
+  margin: 5px auto; /* Center each item horizontally */
+  padding: 5px; /* Adjust padding to accommodate text */
+  border: 1px solid #ddd; /* Individual border for each item */
+  border-radius: 4px;
+  background-color: #8c7fff;
+  cursor: pointer; /* Indicate clickable elements */
+  text-align: center; /* Center text within the element */
+  overflow: hidden; /* Truncate text if it exceeds width */
+  text-overflow: ellipsis;
+}
+
+.user-profile h5,
+h4,
+button {
+  margin: 0;
+  padding: 0;
+}

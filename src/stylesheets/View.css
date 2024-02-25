@@ -1,0 +1,80 @@
+.profileCover {
+  height: 320px;
+}
+
+.profileCoverImg {
+  width: 300%;
+  height: 250px;
+  border-radius: 0px;
+  margin-left: -100%;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileInfoDesc {
+  font-weight: 300;
+}
+
+.profileRightTop {
+  display: flex; /* Allow stacking elements horizontally */
+  flex-direction: column; /* Arrange elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Add spacing between elements */
+}
+
+.profileCounts {
+  display: flex;
+  flex-direction: row; /* Arrange counts horizontally */
+  justify-content: space-between; /* Distribute counts evenly */
+  width: 100%; /* Match the width of the parent element */
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Add spacing between count and text */
+}
+
+.count img {
+  width: 20px; /* Adjust image width as needed */
+  height: 20px; /* Adjust image height as needed */
+  position: relative;
+  top: 50%; /* Vertically center the image */
+  transform: translateY(-50%); /* Offset the image by half its height */
+}
+
+.postGlobe .postPhoto {
+  border-radius: 0px;
+  height: 40vh;
+  object-fit: cover;
+  width: 30vb;
+  margin-left: 13%;
+}

@@ -1,0 +1,84 @@
+.community-details {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  height: 77vh;
+  width: 120vb;
+  margin-left: 120px;
+}
+
+.conversations {
+  margin-bottom: 20px;
+}
+.conversations img {
+  width: 40vb;
+  height: 30vh;
+  border-radius: 1px;
+}
+
+.conversation {
+  margin-bottom: 10px;
+}
+
+.conversation p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.conversation .timestamp {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+}
+
+.message-form input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.message-form button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin-left: 20px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 0.8rem;
+}
+
+.profile-info span {
+  font-weight: bold;
+}

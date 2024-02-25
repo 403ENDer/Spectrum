@@ -1,0 +1,51 @@
+.community-list-container {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 130%;
+  min-height: 80vh;
+  /* Optional spacing after the list */
+}
+
+.community-list {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.community-list li {
+  display: block; /* Change display to block for vertical stacking */
+  width: 80%; /* Set element width to 30px */
+  margin: 5px auto; /* Center each item horizontally */
+  padding: 5px; /* Adjust padding to accommodate text */
+  border: 1px solid #ddd; /* Individual border for each item */
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer; /* Indicate clickable elements */
+  text-align: center; /* Center text within the element */
+  overflow: hidden; /* Truncate text if it exceeds width */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+.community-list-container h4 {
+  display: block; /* Change display to block for vertical stacking */
+  width: 80%; /* Set element width to 30px */
+  margin: 5px auto; /* Center each item horizontally */
+  padding: 5px; /* Adjust padding to accommodate text */
+  border: 1px solid #ddd; /* Individual border for each item */
+  border-radius: 4px;
+  background-color: #8c7fff;
+  cursor: pointer; /* Indicate clickable elements */
+  text-align: center; /* Center text within the element */
+  overflow: hidden; /* Truncate text if it exceeds width */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+}
+.community-list li a {
+  color: #333; /* Change link text color */
+  font-weight: bold; /* Make text bold */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.community-list li:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
