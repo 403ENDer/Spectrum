@@ -71,8 +71,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Output
 
-![Page 2](https://github.com/403ENDer/Spectrum/assets/95125570/13fa0c12-c7d3-4e9c-8262-bf42c6812fd2)
-![Page 3](https://github.com/403ENDer/Spectrum/assets/95125570/c03602c0-a5e0-42b4-83d8-80eb3abd6026)
-![Page 4](https://github.com/403ENDer/Spectrum/assets/95125570/d2a9dfe9-322b-441a-ae32-a16327d4edf1)
 ![Page 1](https://github.com/403ENDer/Spectrum/assets/95125570/8673b969-35d3-4301-aa8f-fdee98cd2ae7)
+
+
+![Page 3](https://github.com/403ENDer/Spectrum/assets/95125570/c03602c0-a5e0-42b4-83d8-80eb3abd6026)
+
+
+![Page 4](https://github.com/403ENDer/Spectrum/assets/95125570/d2a9dfe9-322b-441a-ae32-a16327d4edf1)
+
+
+![settings](https://github.com/403ENDer/Spectrum/assets/95125570/c6c5c9ff-4607-4430-9fbe-153afca0f904)
+
 
